@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="spinner"
+  >
+    <div
+      class="bounce1"
+    />
+    <div
+      class="bounce2"
+    />
+    <div
+      class="bounce3"
+    />
+  </div>
+</DocumentFragment>
+`;

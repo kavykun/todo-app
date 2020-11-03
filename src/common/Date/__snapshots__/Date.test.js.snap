@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="date"
+  >
+    07/05/2012
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Should return an empty div if date is empty string 1`] = `<DocumentFragment />`;
+
+exports[`Should return an empty div if date is null 1`] = `<DocumentFragment />`;
