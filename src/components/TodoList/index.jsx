@@ -50,8 +50,8 @@ const TodoList = () => {
   }, []);
 
   const handleInputChange = async (todoItemId) => {
-    const url = `PATCH https://944ba3c5-94c3-4369-a9e6-a509d65912e2.mock.pstmn.io/patch/${todoItemId}`;
-    setNetworkActivity(`${url}`);
+    const url = `https://944ba3c5-94c3-4369-a9e6-a509d65912e2.mock.pstmn.io/patch/${todoItemId}`;
+    setNetworkActivity(`PATCH ${url}`);
 
     try {
       setNetworkActivity(`${url}`);
@@ -64,10 +64,12 @@ const TodoList = () => {
         body: JSON.stringify({ isComplete: true }),
       });
 
+      setNetworkActivity(`PATCH ${url}: SUCCESS`);
+
       // refetch todos after completing a todo item
       // await setRefetch(!refetch);
     } catch {
-      setNetworkActivity(`${url}: ERROR`);
+      setNetworkActivity(`PATCH ${url}: ERROR`);
     }
   };
 
