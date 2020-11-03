@@ -18,6 +18,13 @@ To run the application:
 yarn start
 ```
 
+I am leveraging an environment config for the API key so you will need to create a .env file in the root
+with these details:
+
+```bash
+REACT_APP_TODO_API_KEY=PMAK-5ef63db179d23c004de50751-10300736bc550d2a891dc4355aab8d7a5c
+```
+
 To execute the tests:
 
 ```bash
