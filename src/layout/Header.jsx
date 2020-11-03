@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import './header.css';
+import './Header.css';
 
 const Header = (props) => {
   const { title } = props;
