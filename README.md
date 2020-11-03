@@ -98,6 +98,7 @@ any extra implementation details. For example, testing library's render method g
 like how it would appear in the DOM. However, one drawback to testing react testing library is that you will not be able to manipulate the component state.
 Rather than tests focusing on the implementation of the component, testing library is more focused on the user behavior and how a user would
 interact with a component. I can concentrate on writing scalable tests without the overheard of having to learn every possible way to render a component using Enzyme.
+Lastly, there are mocks folder which include mock data for testing purposes, I like to abstract there out of the testing file for reusability.
 
 # Additional Notes
 
