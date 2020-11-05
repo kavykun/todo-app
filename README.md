@@ -71,9 +71,9 @@ any of the UI elements.
 
 I used vanilla CSS to simplify styling for this assignment. Personally,
 I would use styled-components or any CSS-in-JSS library so I can use ES6 and CSS to style my components.
-As for the decision on styling, I generally like to create a stylesheet per component event the parent components.
+As for the decision on styling, I generally like to create a stylesheet per component even the parent components.
 First, the styling would be done on the common components. Traditionally, I will build web applications with mobile-first principles in mind.
-Building for mobile breakpoints first for the reason that many users are going to using their mobile devices.
+Building for mobile breakpoints first for the reason that many users are going to be using their mobile devices.
 As for deciding on the breakpoints, I normally would start with 375px (iphone 8), 768px (tablet), 1280px (desktop), and 1400px (large desktop).
 These breakpoints are my own opinion but if there are one-offs then I will also include them.
 For the sake of time, I only include one media query but if I had a mobile design mock using them first would be the start of my implementation.
